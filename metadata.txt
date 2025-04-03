@@ -1,0 +1,14 @@
+[general]
+name=Road Detection Plugin
+qgisMinimumVersion=3.10
+description=Detects roads in satellite imagery using a pre-trained ML model.
+version=0.1
+author=Ayush Khandelwal
+email=ayushkhandelwal@gmail.com
+about=This plugin uses a machine learning model to detect roads. Specify input GeoTIFF and output directory.
+
+[ui]
+plugin_toolbar_icon=icons/icon.png
+
+[python]
+plugin_dependencies=numpy,rasterio,gdal,tensorflow,pytorch
